@@ -3,3 +3,23 @@ coverage
 
 # dependencies
 node_modules
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+yarn-error.log
+
+*.tar.gz
+
+
